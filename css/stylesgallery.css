@@ -1,0 +1,46 @@
+*
+{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(245, 246, 247);
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: 0.05s;
+    margin: 15px;
+}
+.links a:hover{
+    color: rgb(250, 250, 250);
+    text-decoration: underline;
+    scale: 1.1;
+    transition: 0.05s;
+    border: 1px solid rgb(202, 152, 152);
+    padding: 10px;
+    background-color: rgb(34, 8, 65);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+.links a{
+    color: rgb(112, 14, 14);
+    text-decoration: none;
+    margin: 0 10px;
+}
+body{
+    font-family: 'Brother Signature', cursive;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2301283/pexels-photo-2301283.jpeg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(0px);
+    transition: 0.5s;
+}
+
