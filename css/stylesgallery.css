@@ -9,31 +9,31 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: rgb(245, 246, 247);
+    background-color: rgb(214, 223, 206);
 }
-.links{
+header .links{
     display: flex;
-    align-items: center;
-    justify-content: left;
+    justify-content: right;
     transition: 0.05s;
-    margin: 15px;
+    margin: 5px;
 }
-.links a:hover{
-    color: rgb(250, 250, 250);
-    text-decoration: underline;
-    scale: 1.1;
-    transition: 0.05s;
-    border: 1px solid rgb(202, 152, 152);
-    padding: 10px;
-    background-color: rgb(34, 8, 65);
-    border-radius: 10px;
-    backdrop-filter: blur(15px);
-}
-.links a{
+header .links a{
     color: rgb(112, 14, 14);
     text-decoration: none;
-    margin: 0 10px;
+    margin: 10px;
 }
+header .links a:hover{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    scale: 1.0;
+    transition: 0.05s;
+    border: 1px solid rgb(202, 152, 152);
+    padding: 5px;
+    background-color: rgb(34, 8, 65);
+    border-radius: 8px;
+}
+
+
 body{
     font-family: 'Brother Signature', cursive;
     height: 100vh;
@@ -42,5 +42,17 @@ body{
     background-position: center;
     backdrop-filter: blur(0px);
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
 }
 
