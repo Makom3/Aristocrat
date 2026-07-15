@@ -78,6 +78,7 @@ hr{
 .content i{
     font-style: italic;
     color: rgb(112, 14, 14);
+    backdrop-filter: blur(5px);
 }
 
 .content img:hover{
@@ -87,4 +88,12 @@ hr{
     padding: 0px;
     border: 1px solid rgb(202, 152, 152);
     
+}
+.content .list i{
+    color: rgb(51, 44, 63);
+    font-weight: bold;
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+    background-color: rgb(202, 152, 152);
+    border-radius: 7px;
 }
