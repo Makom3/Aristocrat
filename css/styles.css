@@ -37,7 +37,7 @@ header{
 body{
     font-family: 'Brother Signature', cursive;
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/12323053/pexels-photo-12323053.jpeg');
+    background-color: rgb(171, 169, 184);
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(0px);
@@ -93,7 +93,5 @@ hr{
     color: rgb(51, 44, 63);
     font-weight: bold;
     font-size: 20px;
-    backdrop-filter: blur(5px);
-    background-color: rgb(202, 152, 152);
     border-radius: 7px;
 }
